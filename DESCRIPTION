@@ -1,0 +1,23 @@
+Encoding: UTF-8
+Type: Package
+Package: scipi.klnmf
+Version: 0.1-4
+Date: 2020-2-6
+Title: Scale Invariant Power Iteration for Kullback-Leibler Divergence Nonnegative Matrix Factorization
+Authors@R: c(person("Youngseok","Kim",role=c("aut","cre"),
+                    email="youngseok@uchicago.edu"))
+URL: https://github.com/youngseok-kim/scipi-klnmf
+BugReports: https://github.com/youngseok-kim/scipi-klnmf/issues
+Description: This is a package implementing SCI-PI for KL-NMF
+License: MIT + file LICENSE
+LazyData: true
+NeedsCompilation: yes
+Depends: R (>= 3.1.0)
+Imports:
+    Rcpp (>= 1.0.1),
+    Matrix,
+    stats
+LinkingTo:
+    Rcpp,
+    RcppArmadillo
+RoxygenNote: 7.0.2
